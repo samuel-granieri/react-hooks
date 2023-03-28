@@ -1,0 +1,24 @@
+.App{
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  gap: 15px;
+}
+
+h1{
+  text-align: center;
+}
+
+fieldset{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+
+fieldset legend{
+  color: red;
+}
